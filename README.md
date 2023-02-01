@@ -1,5 +1,8 @@
 # httpdbg
-A Golang library for logging and visualizing HTTP requests using the Chrome Dev Tools
+A Golang library for logging and visualizing HTTP requests using the Chrome Dev Tools.
+
+Is the server returning an Invalid Request error for the client you generated using the API spec the vendor gave you?
+Use `httpdbg` to find out who is at fault quickly!
 
 ### Features
 * Provides a simple wrapper for an http.RoundTripper, making it easy to integrate with existing applications.
