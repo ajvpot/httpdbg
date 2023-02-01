@@ -1,5 +1,5 @@
 # httpdbg
-A Golang library for logging and visualizing HTTP requests. 
+A Golang library for logging and visualizing HTTP requests using the Chrome Dev Tools
 
 ### Features
 * Provides a simple wrapper for an http.RoundTripper, making it easy to integrate with existing applications.
@@ -8,6 +8,10 @@ A Golang library for logging and visualizing HTTP requests.
 ### Installation
 
 ### Usage
+* Instrument your `http.Client` with `httpdbg`
+* Expose the handler provided by `httpdbg`
+* Connect to the handler with Chrome Dev Tools using Chrome
+* Log and visualize requests using the same interface as Chrome.
 
 ### Contributing
 If you find a bug or have a feature request, please open an issue or a pull request on the GitHub repository.
